@@ -1,6 +1,9 @@
 <?php
-echo "<pre>";
-    echo "404";
-    echo "<br>";
-    echo "Page Not Found";
-echo "</pre>";
+
+class PageNotFound extends Controller
+{
+    public function index()
+    {
+        echo "This is the PageNotFound controller";
+    }
+}
